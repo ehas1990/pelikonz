@@ -763,7 +763,8 @@ header {
     border-radius: 100px 20px 20px 20px; }
 
 .hero-content {
-  background: linear-gradient(233.77deg, rgba(217, 10, 44, 0.8) 0.94%, rgba(115, 0, 0, 0.8) 99.09%);
+  /* background: linear-gradient(233.77deg, rgba(217, 10, 44, 0.8) 0.94%, rgba(115, 0, 0, 0.8) 99.09%); */
+  background: linear-gradient(182deg, #29ff92, #4c8f8273);
   border: 1px solid rgba(173, 173, 173, 0.2);
   box-sizing: border-box;
   border-radius: 20px;
@@ -1330,8 +1331,10 @@ header {
     border-radius: 5px; }
   .about-right .group-images .about-top {
     position: absolute;
-    top: -85px;
-    right: -85px; }
+    top: -137px;
+    right: -193px;
+    width: 350px;
+     }
     @media (max-width: 767px) {
       .about-right .group-images .about-top {
         margin-top: 30px;

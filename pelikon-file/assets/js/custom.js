@@ -124,9 +124,9 @@
     $('ul.project-filter-tab li').on('click', function () {
 
         $("ul.project-filter-tab li").removeClass("active");
-        $(this).addClass("active");
+        // $(this).addClass("active");
 
-        var selector = $(this).attr('data-filter');
+        var selector = $(this).attr('data-filter1');
         $(".project-items-wrapper").isotope({
             filter: selector,
             animationOptions: {
