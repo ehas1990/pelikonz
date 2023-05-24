@@ -710,7 +710,7 @@ header {
 
 .hero-content-wrapper {
   position: relative;
-  height: 100vh;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -777,11 +777,15 @@ header {
     .hero-content {
       max-width: 570px;
       padding: 50px 30px;
-      margin-left: -75px; } }
+      margin-left: -75px;
+      height: 317px;
+     } }
   @media only screen and (min-width: 1200px) and (max-width: 1399px) {
     .hero-content {
       max-width: 500px;
-      padding: 30px 20px; } }
+      padding: 30px 20px;
+    height: 317px;
+   } }
   @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
     .hero-content {
       max-width: 400px;
@@ -4251,7 +4255,7 @@ textarea {
 ===========================*/
 footer {
   position: relative;
-  background-image: url(../img/footer-bgw.png);
+  background: url("../img/testimonial-bg.png") #000000e5;
   background-size: cover;
   background-position: center center;
   z-index: 1;
