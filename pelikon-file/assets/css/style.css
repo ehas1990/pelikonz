@@ -762,17 +762,17 @@ header {
   .hero-content-img img {
     border-radius: 100px 20px 20px 20px; }
 
-.hero-content {
-  /* background: linear-gradient(233.77deg, rgba(217, 10, 44, 0.8) 0.94%, rgba(115, 0, 0, 0.8) 99.09%); */
-  background: linear-gradient(182deg, #29ff92, #4c8f8273);
-  border: 1px solid rgba(173, 173, 173, 0.2);
-  box-sizing: border-box;
-  border-radius: 20px;
-  text-align: center;
-  max-width: 670px;
-  padding: 80px 50px;
-  position: relative;
-  margin-left: -100px; }
+
+  .hero-content {
+    background: linear-gradient(233.77deg, rgba(255, 255, 255, 0.8) 0.94%, rgba(255, 255, 255, 0.8) 99.09%);
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 670px;
+    padding: 80px 50px;
+    position: relative;
+    margin-left: -100px;
+  } 
   @media only screen and (min-width: 1400px) and (max-width: 1650px) {
     .hero-content {
       max-width: 570px;
@@ -863,33 +863,33 @@ header {
         font-size: 45px; } }
     .hero-content h1 span {
       font-weight: 800;
-      font-size: 60px;
+      font-size: 35px;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      -webkit-text-stroke: 1px #ffffff;
-      -webkit-text-fill-color: transparent; }
+      -webkit-text-stroke: 1px #000;
+      -webkit-text-fill-color:#000; }
       @media only screen and (min-width: 1400px) and (max-width: 1650px) {
         .hero-content h1 span {
-          font-size: 55px; } }
+          font-size: 35px; } }
       @media only screen and (min-width: 1200px) and (max-width: 1399px) {
         .hero-content h1 span {
-          font-size: 48px; } }
+          font-size: 35px; } }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .hero-content h1 span {
-          font-size: 42px; } }
+          font-size: 35px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .hero-content h1 span {
-          font-size: 36px; } }
+          font-size: 35px; } }
       @media (max-width: 767px) {
         .hero-content h1 span {
           font-size: 30px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
         .hero-content h1 span {
-          font-size: 55px; } }
+          font-size: 35px; } }
   .hero-content p {
     font-size: 16px;
     text-align: center;
-    color: #FFFFFF;
+    color: #000;
     line-height: 35px;
     margin-bottom: 60px; }
     @media only screen and (min-width: 1400px) and (max-width: 1650px) {
@@ -5631,4 +5631,9 @@ select
 }
 #sub{
  width: 35px !important;
+}
+.hero-content a.aboutbtn {
+  background-color: #D90A2C;
+  border: 1px solid #D90A2C;
+  margin-right: 15px;
 }
