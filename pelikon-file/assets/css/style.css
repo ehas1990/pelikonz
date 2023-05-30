@@ -5637,3 +5637,26 @@ select
   border: 1px solid #D90A2C;
   margin-right: 15px;
 }
+.text-justify
+{
+  text-align: justify;
+}
+.contact {
+	position: relative;
+	background: url("../img/testimonial-bg.png") #000000c2;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+	padding-top: 80px;
+}
+
+.office-info {
+	text-align: center !important;
+	min-height: 250px !important;
+	padding: 30px !important;
+	-webkit-transition: all 0.5s ease-out 0s !important;
+	-moz-transition: all 0.5s ease-out 0s !important;
+	-ms-transition: all 0.5s ease-out 0s !important;
+	-o-transition: all 0.5s ease-out 0s !important;
+	transition: all 0.5s ease-out 0s !important;
+}
