@@ -746,7 +746,7 @@ header {
       max-width: 380px; } }
   @media (max-width: 767px) {
     .hero-content-img {
-      display: none; } }
+      display: contents; } }
   .hero-content-img:before {
     position: absolute;
     content: "";
@@ -792,6 +792,7 @@ header {
       padding: 20px; } }
   @media (max-width: 767px) {
     .hero-content {
+      margin-top: -48px;
       padding: 20px;
       margin-left: 0; } }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1826,23 +1827,25 @@ header {
       -o-transform: translateY(-50px);
       transform: translateY(-50px); }
   .single-portfolio .portfolio-inner {
+ 
     position: absolute;
     z-index: 2;
     width: 90%;
     left: 5%;
     right: 5%;
     bottom: 5%;
-    background-color: #0F0F11;
+    background-color: #040404d6;
     border-radius: 5px;
     padding: 15px;
     height: 320px;
    }
+ 
     .single-portfolio .portfolio-inner span {
       font-weight: 500;
       font-size: 15px;
       letter-spacing: 0.02em;
       text-transform: capitalize;
-      color: #E4E4E4;
+      color: #050505;
       display: block;
       margin-bottom: 5px; }
     .single-portfolio .portfolio-inner h4 {
@@ -1858,6 +1861,7 @@ header {
         .single-portfolio .portfolio-inner h4 {
           font-size: 18px; } }
     .single-portfolio .portfolio-inner .portfolio-hover {
+     
       display: flex;
       width: 100%;
       justify-content: space-between;
@@ -1877,6 +1881,7 @@ header {
       -o-transform: translateY(-20px);
       transform: translateY(-20px); }
       .single-portfolio .portfolio-inner .portfolio-hover a.case-btn {
+      
         display: inline-block;
         border: 1px solid #D90A2C;
         box-sizing: border-box;
@@ -1887,6 +1892,7 @@ header {
         text-transform: capitalize;
         color: #FFFFFF; }
       .single-portfolio .portfolio-inner .portfolio-hover i {
+       
         width: 30px;
         height: 30px;
         border: 1px solid #FFFFFF;
@@ -1897,6 +1903,7 @@ header {
         color: #fff;
         font-size: 14px; }
   .single-portfolio:hover .portfolio-data:before {
+   
     visibility: visible;
     opacity: 1;
     -webkit-transform: translateY(0px);
@@ -1905,6 +1912,7 @@ header {
     -o-transform: translateY(0px);
     transform: translateY(0px); }
   .single-portfolio:hover .portfolio-inner .portfolio-hover {
+    
     -webkit-transform: translateY(0px);
     -moz-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -1915,7 +1923,8 @@ header {
     margin-top: 20px;
     height: auto; }
   .single-portfolio:hover .portfolio-inner {
-    background: #0F0F11;
+
+    background: #fffefe45;
     backdrop-filter: blur(42px);
     border-radius: 10px; }
 
@@ -5659,4 +5668,9 @@ select
 	-ms-transition: all 0.5s ease-out 0s !important;
 	-o-transition: all 0.5s ease-out 0s !important;
 	transition: all 0.5s ease-out 0s !important;
+}
+.single-portfolio .portfolio-inner p {
+	
+	color: #E4E4E4;
+	margin: 0;
 }
